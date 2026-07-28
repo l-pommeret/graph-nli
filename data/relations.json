@@ -1,0 +1,42 @@
+{
+  "extraction": {
+    "IsA": "class or type membership: [dog, IsA, animal]",
+    "InstanceOf": "named entity is an instance of a class: [parma, InstanceOf, city]",
+    "HasProperty": "attribute, state or cardinality: [coat, HasProperty, red] ; [man, HasProperty, two]",
+    "NotHasProperty": "negated attribute: [room, NotHasProperty, empty]",
+    "CapableOf": "the subject performs the action: [person, CapableOf, jump]",
+    "NotCapableOf": "the subject does NOT perform the action: [politician, NotCapableOf, attend_meeting]",
+    "ReceivesAction": "the object undergoes the action: [ball, ReceivesAction, kick]",
+    "AtLocation": "spatial location: [man, AtLocation, park] ; [jump, AtLocation, street]",
+    "LocatedNear": "proximity: [bench, LocatedNear, fountain]",
+    "HasA": "possession or attachment: [person, HasA, horse]",
+    "PartOf": "part-whole: [wheel, PartOf, car]",
+    "MadeOf": "material: [knife, MadeOf, steel]",
+    "UsedFor": "purpose or instrument of an action: [knife, UsedFor, cut]",
+    "Desires": "wants / intends: [child, Desires, ice_cream]",
+    "NotDesires": "does not want: [cat, NotDesires, bath]",
+    "CausesDesire": "makes one want: [heat, CausesDesire, swim]",
+    "Causes": "causal link: [rain, Causes, wet]",
+    "HasSubevent": "sub-action happening within the action: [cook, HasSubevent, stir]",
+    "HasPrerequisite": "necessary precondition: [win, HasPrerequisite, compete]",
+    "MotivatedByGoal": "action done for a goal: [train, MotivatedByGoal, competition]",
+    "MannerOf": "specific way of doing (verb-verb): [sprint, MannerOf, run]",
+    "HasContext": "temporal or contextual setting: [sleep, HasContext, night]",
+    "CreatedBy": "creator or origin: [painting, CreatedBy, artist]",
+    "DefinedAs": "definition or equivalence: [sum, DefinedAs, total]",
+    "Synonym": "same meaning: [couch, Synonym, sofa]",
+    "Antonym": "opposite meaning: [hot, Antonym, cold]",
+    "SimilarTo": "similar: [jog, SimilarTo, run]",
+    "DistinctFrom": "mutually exclusive alternative: [indoors, DistinctFrom, outdoors]"
+  },
+  "kgraph_extra": [
+    "RelatedTo",
+    "Entails",
+    "FormOf",
+    "DerivedFrom",
+    "ObstructedBy",
+    "HasFirstSubevent",
+    "HasLastSubevent",
+    "SymbolOf"
+  ]
+}

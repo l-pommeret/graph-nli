@@ -1,0 +1,6 @@
+datasets
+numpy
+spacy
+torch
+transformers
+vllm>=0.25

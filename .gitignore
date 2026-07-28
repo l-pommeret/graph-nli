@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+data/atomic/
+data/conceptnet/
+data/pairs/
+out/
